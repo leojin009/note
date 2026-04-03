@@ -1,0 +1,2 @@
+# note
+Record daily
