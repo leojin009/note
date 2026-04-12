@@ -3,7 +3,7 @@
 docker有两种类型 ：arm64 和 amd64
 死活拉不下jdk 17的amd64架构的镜像，只能拉arm64架构的镜像，但是arm64架构的镜像中没有jdk 17的镜像
 
-### 解决办法
+### docker_jdk17_amd_arm
 
 创建一个临时目录，新建一个 Dockerfile：
 FROM --platform=linux/amd64 eclipse-temurin:17-jre
